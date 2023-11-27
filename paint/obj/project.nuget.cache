@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "dgSpecHash": "WOpMz9vF0mX1EO/kZkKUd4heCd1OFhZ34kK9IaxoG0UCGjoO2rlNewYUStJ3fB/M6DBvvq9Yd2g9LthgXprywA==",
+  "success": true,
+  "projectFilePath": "D:\\order\\paint\\paint\\paint.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Dell\\.nuget\\packages\\extended.wpf.toolkit\\4.5.1\\extended.wpf.toolkit.4.5.1.nupkg.sha512",
+    "C:\\Users\\Dell\\.nuget\\packages\\system.reactive\\6.0.0\\system.reactive.6.0.0.nupkg.sha512",
+    "C:\\Users\\Dell\\.nuget\\packages\\system.reactive.windows.forms\\6.0.0\\system.reactive.windows.forms.6.0.0.nupkg.sha512",
+    "C:\\Users\\Dell\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Reactive.Windows.Forms 6.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "System.Reactive.Windows.Forms",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    }
+  ]
+}

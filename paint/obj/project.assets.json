@@ -1,0 +1,330 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "Extended.Wpf.Toolkit/4.5.1": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Xceed.Wpf.AvalonDock.NET5.dll": {},
+          "lib/net5.0/Xceed.Wpf.AvalonDock.Themes.Aero.NET5.dll": {},
+          "lib/net5.0/Xceed.Wpf.AvalonDock.Themes.Metro.NET5.dll": {},
+          "lib/net5.0/Xceed.Wpf.AvalonDock.Themes.VS2010.NET5.dll": {},
+          "lib/net5.0/Xceed.Wpf.Toolkit.NET5.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Xceed.Wpf.AvalonDock.NET5.dll": {},
+          "lib/net5.0/Xceed.Wpf.AvalonDock.Themes.Aero.NET5.dll": {},
+          "lib/net5.0/Xceed.Wpf.AvalonDock.Themes.Metro.NET5.dll": {},
+          "lib/net5.0/Xceed.Wpf.AvalonDock.Themes.VS2010.NET5.dll": {},
+          "lib/net5.0/Xceed.Wpf.Toolkit.NET5.dll": {}
+        },
+        "resource": {
+          "lib/net5.0/cs-CZ/Xceed.Wpf.AvalonDock.NET5.resources.dll": {
+            "locale": "cs-CZ"
+          },
+          "lib/net5.0/de/Xceed.Wpf.AvalonDock.NET5.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net5.0/es/Xceed.Wpf.AvalonDock.NET5.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net5.0/fr/Xceed.Wpf.AvalonDock.NET5.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net5.0/hu/Xceed.Wpf.AvalonDock.NET5.resources.dll": {
+            "locale": "hu"
+          },
+          "lib/net5.0/it/Xceed.Wpf.AvalonDock.NET5.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net5.0/ja-JP/Xceed.Wpf.AvalonDock.NET5.resources.dll": {
+            "locale": "ja-JP"
+          },
+          "lib/net5.0/pt-BR/Xceed.Wpf.AvalonDock.NET5.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net5.0/ro/Xceed.Wpf.AvalonDock.NET5.resources.dll": {
+            "locale": "ro"
+          },
+          "lib/net5.0/ru/Xceed.Wpf.AvalonDock.NET5.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net5.0/sv/Xceed.Wpf.AvalonDock.NET5.resources.dll": {
+            "locale": "sv"
+          },
+          "lib/net5.0/zh-Hans/Xceed.Wpf.AvalonDock.NET5.resources.dll": {
+            "locale": "zh-Hans"
+          }
+        }
+      },
+      "System.Reactive/6.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/System.Reactive.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.Reactive.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Reactive.Windows.Forms/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Reactive": "6.0.0",
+          "System.Threading.Tasks.Extensions": "4.5.4"
+        },
+        "compile": {
+          "lib/net472/System.Reactive.Windows.Forms.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net472/System.Reactive.Windows.Forms.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Threading.Tasks.Extensions/4.5.4": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.1/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/_._": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Extended.Wpf.Toolkit/4.5.1": {
+      "sha512": "Z0AL4oOORLZsKUediAaXOVt+nQI8owUcv05RDuoup0JaS96cqN/2zeIVr2TLX5oDK6VOrm1NkJKV1zrQCj3Deg==",
+      "type": "package",
+      "path": "extended.wpf.toolkit/4.5.1",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "Xceed_Logo_Retina-400x400.png",
+        "extended.wpf.toolkit.4.5.1.nupkg.sha512",
+        "extended.wpf.toolkit.nuspec",
+        "lib/net40/Xceed.Wpf.AvalonDock.Themes.Aero.dll",
+        "lib/net40/Xceed.Wpf.AvalonDock.Themes.Metro.dll",
+        "lib/net40/Xceed.Wpf.AvalonDock.Themes.VS2010.dll",
+        "lib/net40/Xceed.Wpf.AvalonDock.dll",
+        "lib/net40/Xceed.Wpf.Toolkit.dll",
+        "lib/net40/cs-CZ/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/de/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/es/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/fr/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/hu/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/it/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/ja-JP/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/nl-BE/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/pt-BR/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/ro/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/ru/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/sv/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/zh-Hans/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net5.0/Xceed.Wpf.AvalonDock.NET5.dll",
+        "lib/net5.0/Xceed.Wpf.AvalonDock.Themes.Aero.NET5.dll",
+        "lib/net5.0/Xceed.Wpf.AvalonDock.Themes.Metro.NET5.dll",
+        "lib/net5.0/Xceed.Wpf.AvalonDock.Themes.VS2010.NET5.dll",
+        "lib/net5.0/Xceed.Wpf.Toolkit.NET5.dll",
+        "lib/net5.0/cs-CZ/Xceed.Wpf.AvalonDock.NET5.resources.dll",
+        "lib/net5.0/de/Xceed.Wpf.AvalonDock.NET5.resources.dll",
+        "lib/net5.0/es/Xceed.Wpf.AvalonDock.NET5.resources.dll",
+        "lib/net5.0/fr/Xceed.Wpf.AvalonDock.NET5.resources.dll",
+        "lib/net5.0/hu/Xceed.Wpf.AvalonDock.NET5.resources.dll",
+        "lib/net5.0/it/Xceed.Wpf.AvalonDock.NET5.resources.dll",
+        "lib/net5.0/ja-JP/Xceed.Wpf.AvalonDock.NET5.resources.dll",
+        "lib/net5.0/pt-BR/Xceed.Wpf.AvalonDock.NET5.resources.dll",
+        "lib/net5.0/ro/Xceed.Wpf.AvalonDock.NET5.resources.dll",
+        "lib/net5.0/ru/Xceed.Wpf.AvalonDock.NET5.resources.dll",
+        "lib/net5.0/sv/Xceed.Wpf.AvalonDock.NET5.resources.dll",
+        "lib/net5.0/zh-Hans/Xceed.Wpf.AvalonDock.NET5.resources.dll",
+        "tools/install.ps1"
+      ]
+    },
+    "System.Reactive/6.0.0": {
+      "sha512": "31kfaW4ZupZzPsI5PVe77VhnvFF55qgma7KZr/E0iFTs6fmdhhG8j0mgEx620iLTey1EynOkEfnyTjtNEpJzGw==",
+      "type": "package",
+      "path": "system.reactive/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/net6.0-windows10.0.19041/_._",
+        "build/net6.0/_._",
+        "buildTransitive/net6.0-windows10.0.19041/_._",
+        "buildTransitive/net6.0/_._",
+        "icon.png",
+        "lib/net472/System.Reactive.dll",
+        "lib/net472/System.Reactive.xml",
+        "lib/net6.0-windows10.0.19041/System.Reactive.dll",
+        "lib/net6.0-windows10.0.19041/System.Reactive.xml",
+        "lib/net6.0/System.Reactive.dll",
+        "lib/net6.0/System.Reactive.xml",
+        "lib/netstandard2.0/System.Reactive.dll",
+        "lib/netstandard2.0/System.Reactive.xml",
+        "lib/uap10.0.18362/System.Reactive.dll",
+        "lib/uap10.0.18362/System.Reactive.pri",
+        "lib/uap10.0.18362/System.Reactive.xml",
+        "readme.md",
+        "system.reactive.6.0.0.nupkg.sha512",
+        "system.reactive.nuspec"
+      ]
+    },
+    "System.Reactive.Windows.Forms/6.0.0": {
+      "sha512": "pQCce4p+GOZonalArduNFdcmS1NLiZT5KnAFqvJpkSMrEtjmXI+3OPzSXTkQvJpBhVsct4+BInu7HO5k+4kVnA==",
+      "type": "package",
+      "path": "system.reactive.windows.forms/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/net472/System.Reactive.Windows.Forms.dll",
+        "lib/net472/System.Reactive.Windows.Forms.xml",
+        "readme.md",
+        "system.reactive.windows.forms.6.0.0.nupkg.sha512",
+        "system.reactive.windows.forms.nuspec"
+      ]
+    },
+    "System.Threading.Tasks.Extensions/4.5.4": {
+      "sha512": "zteT+G8xuGu6mS+mzDzYXbzS7rd3K6Fjb9RiZlYlJPam2/hU7JCBZBVEcywNuR+oZ1ncTvc/cq0faRr3P01OVg==",
+      "type": "package",
+      "path": "system.threading.tasks.extensions/4.5.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net461/System.Threading.Tasks.Extensions.dll",
+        "lib/net461/System.Threading.Tasks.Extensions.xml",
+        "lib/netcoreapp2.1/_._",
+        "lib/netstandard1.0/System.Threading.Tasks.Extensions.dll",
+        "lib/netstandard1.0/System.Threading.Tasks.Extensions.xml",
+        "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll",
+        "lib/netstandard2.0/System.Threading.Tasks.Extensions.xml",
+        "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.dll",
+        "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.xml",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/netcoreapp2.1/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.threading.tasks.extensions.4.5.4.nupkg.sha512",
+        "system.threading.tasks.extensions.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "Extended.Wpf.Toolkit >= 4.5.1",
+      "System.Reactive.Windows.Forms >= 6.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Dell\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\order\\paint\\paint\\paint.csproj",
+      "projectName": "paint",
+      "projectPath": "D:\\order\\paint\\paint\\paint.csproj",
+      "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+      "outputPath": "D:\\order\\paint\\paint\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "dependencies": {
+          "Extended.Wpf.Toolkit": {
+            "target": "Package",
+            "version": "[4.5.1, )"
+          },
+          "System.Reactive.Windows.Forms": {
+            "target": "Package",
+            "version": "[6.0.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Reactive.Windows.Forms 6.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "System.Reactive.Windows.Forms",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    }
+  ]
+}
